@@ -1,2 +1,3 @@
 npm install
-reveal-md slides.md
+npm start
+
