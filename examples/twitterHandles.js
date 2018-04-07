@@ -11,8 +11,5 @@ const twitterHandles = (authors, company) => {
   return result;
 };
 
-module.exports = {
-  twitterHandles,
-
-};
+module.exports = twitterHandles;
 
