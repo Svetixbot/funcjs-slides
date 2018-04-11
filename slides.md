@@ -72,6 +72,7 @@ At the core of these practices is readability. -->
 
 ## What is readability?
 
+<!-- This is the foundation -->
 <!-- It is not indentation, semicoloms, breakets or whatever makes your code pretty.
 It all comes down to the ability to reason about your code. What does it mean? -> building assumptions about what your code is gonna do based on reading it.
 It can be achieved without debugging, by putting just 2 principles in front: immutable data structures, no side-effects as no modification of state outside of a function scope. -->
@@ -156,6 +157,38 @@ addTotal(0)(11);  // 11
  - Immutability
  - Side effects
  - Referential transparency
+
+---
+
+### Common patters
+
+ - Collection pipeline
+ - Pipe operation
+ - Currying
+
+---
+
+### Collection pipeline
+
+---
+
+### When should we use FP disuccsion
+
+---
+
+### Pipe operation
+
+---
+
+### Currying
+
+---
+
+### Recap
+
+---
+
+### Other design patterns
 
 ---
 
