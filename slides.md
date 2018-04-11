@@ -53,7 +53,7 @@ Not using them and Not knowing them doesn't really help with accepting and adopt
  - How and why do I do FP on a client?
  - Currying
  - Pipe operator
- - Design patters from FP world
+ - Design patterns from FP world
 
 ---
 
@@ -160,7 +160,7 @@ addTotal(0)(11);  // 11
 
 ---
 
-### Common patters
+### Common patterns
 
  - Collection pipeline
  - Pipe operation
@@ -172,7 +172,20 @@ addTotal(0)(11);  // 11
 
 ---
 
-### When should we use FP disuccsion
+### [When should we use FP](https://youtu.be/vpcKnqyNdSQ?t=825)
+
+---
+
+### 1. Should my team use FP?
+ - Maybe
+ - No
+
+-------
+
+### 2. Anti-patterns
+ - Under the rug
+ - Wizard Tower
+ - Seagulls
 
 ---
 
