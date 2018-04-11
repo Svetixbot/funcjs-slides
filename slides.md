@@ -41,13 +41,13 @@ Not using them and Not knowing them doesn't really help with accepting and adopt
 
 ---
 
-### It is all about making us happier.
+### It is all being happy
 
 ---
 
 ## We'll cover these:
 
- - What exactly makes us happier?
+ - What exactly makes us happy?
  - Foundation
  - Collection pipeline
  - How and why do I do FP on a client?
@@ -57,7 +57,7 @@ Not using them and Not knowing them doesn't really help with accepting and adopt
 
 ---
 
-## What makes our lives easier?
+## What makes us happy?
 
 <!-- From Ken's talk, people have diff goals:
 Product people want predictble enough way of delivering features, they don't care about tech.
