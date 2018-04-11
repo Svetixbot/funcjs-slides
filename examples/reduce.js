@@ -1,5 +1,5 @@
 // fn = (accumulator, currentValue, [currentIndex], [array] )
-const reduce1 = (array, fn, inititalValue) => {
+const reduce = (array, fn, inititalValue) => {
   let accumulator = inititalValue;
   array.forEach((val, i) => {
     accumulator = accumulator !== undefined
@@ -9,8 +9,20 @@ const reduce1 = (array, fn, inititalValue) => {
   return accumulator;
 };
 
+const map = (arr, fn) => reduce(
+  arr,
+  (acc, val) => acc.concat(fn(val)),
+  [],
+);
 
+const filter = (arr, fn) => reduce(
+  arr,
+  (acc, val) => (fn(val) ? acc.concat(val) : acc),
+  [],
+);
 module.exports = {
-  reduce1,
+  reduce,
+  map,
+  filter,
 };
 
