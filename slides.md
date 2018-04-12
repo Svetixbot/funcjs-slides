@@ -36,14 +36,6 @@ Not using them and Not knowing them doesn't really help with accepting and adopt
 
 ---
 
-## What functional programming is about?
-
----
-
-<!-- .slide: data-background="./img/monads.jpg" data-background-size="contain" -->
-
----
-
 ### Functional programming is just a programming
 
 <!-- Set of design patterns and practices, which are in the foundation of Software design. -->
