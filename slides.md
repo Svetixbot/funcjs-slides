@@ -60,7 +60,7 @@ Not using them and Not knowing them doesn't really help with accepting and adopt
 ## We'll cover these:
 
 - What exactly makes us happy?
-- Foundation
+- Founding principles
 - Collection pipeline
 - How and why do I do FP on a client?
 - Currying
@@ -101,7 +101,7 @@ It can be achieved without debugging, by putting just 2 principles in front: imm
 
 ```js
 let selectedRows = [1, 2, 3, 4];
-selectedRows = selectedRows.push(5);
+selectedRows.push(5);
 ```
 
 vs
