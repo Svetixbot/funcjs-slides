@@ -1,7 +1,26 @@
-## Functional Programming
+# Functional Programming
 
 ---
 
+## What is functional programming?
+
+---
+
+<!-- .slide: data-background="./img/Coherence_law_for_the_multiplication_of_a_monad.svg" data-background-size="contain" -->
+
+---
+
+## No really, what is functional programming?
+
+---
+
+<!-- .slide: data-background="./img/Coherence_law_for_the_unit_of_a_monad.svg" data-background-size="contain" -->
+
+---
+
+## Ok
+
+---
 <!-- .slide: data-background="./img/mainstream.png" data-background-size="contain" -->
 
 <!-- In the last few years people are talking about FP more and more and FP is becoming part of a mainstream comunity.
@@ -26,6 +45,7 @@ Not using them and Not knowing them doesn't really help with accepting and adopt
 ---
 
 ### Functional programming is just a programming
+
 <!-- Set of design patterns and practices, which are in the foundation of Software design. -->
 
 ---
@@ -47,13 +67,13 @@ Not using them and Not knowing them doesn't really help with accepting and adopt
 
 ## We'll cover these:
 
- - What exactly makes us happy?
- - Foundation
- - Collection pipeline
- - How and why do I do FP on a client?
- - Currying
- - Pipe operator
- - Design patterns from FP world
+- What exactly makes us happy?
+- Foundation
+- Collection pipeline
+- How and why do I do FP on a client?
+- Currying
+- Pipe operator
+- Design patterns from FP world
 
 ---
 
@@ -77,9 +97,9 @@ At the core of these practices is readability. -->
 It all comes down to the ability to reason about your code. What does it mean? -> building assumptions about what your code is gonna do based on reading it.
 It can be achieved without debugging, by putting just 2 principles in front: immutable data structures, no side-effects as no modification of state outside of a function scope. -->
 
- - Immutability
- - Side effects
- - Referential transparency
+- Immutability
+- Side effects
+- Referential transparency
 
 ---
 
@@ -96,7 +116,7 @@ vs
 
 ```js
 const selectedRows = [1, 2, 3, 4];
-const appendedSelectedRows = selectedRows.append([5]);
+const appendedSelectedRows = [...selectedRows, 5];
 ```
 
 ---
@@ -128,10 +148,10 @@ or 'an expression always evaluates to the same result in any context.' -->
 
 ```js
 let total = 0
-addTotal = (x) => total + x
+addTotal = (x) => total += x
 
 addTotal(10);  // 10
-addTotal(11);  // 21
+addTotal(10);  // 20
 ```
 
 vs
@@ -154,17 +174,17 @@ addTotal(0)(11);  // 11
 
 ## Foundation of FP
 
- - Immutability
- - Side effects
- - Referential transparency
+- Immutability
+- Side effects
+- Referential transparency
 
 ---
 
 ### Common patterns
 
- - Collection pipeline
- - Pipe operation
- - Currying
+- Collection pipeline
+- Pipe operation
+- Currying
 
 ---
 
@@ -177,15 +197,17 @@ addTotal(0)(11);  // 11
 ---
 
 ### 1. Should my team use FP?
- - Maybe
- - No
 
--------
+- Maybe
+- No
+
+---
 
 ### 2. Anti-patterns
- - Under the rug
- - Wizard Tower
- - Seagulls
+
+- Under the rug
+- Wizard Tower
+- Seagulls
 
 ---
 
@@ -207,5 +229,5 @@ addTotal(0)(11);  // 11
 
 ### References
 
- - [Adopting FP: A Human-First Approach](https://www.youtube.com/watch?v=vpcKnqyNdSQ)
- - [Hardcode FP in JS cource](https://www.pluralsight.com/courses/hardcore-functional-programming-javascript)
+- [Adopting FP: A Human-First Approach](https://www.youtube.com/watch?v=vpcKnqyNdSQ)
+- [Hardcode FP in JS cource](https://www.pluralsight.com/courses/hardcore-functional-programming-javascript)
