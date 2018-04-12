@@ -62,15 +62,15 @@ Not using them and Not knowing them doesn't really help with accepting and adopt
 - What exactly makes us happy?
 - Founding principles
 - Collection pipeline
-- How and why do I do FP on a client?
 - Currying
 - Pipe operator
+- How and why do I do FP on a client?
 - Design patterns from FP world
 
 ---
 
 ## What makes us happy?
-
+<!--- Ask the audience what makes them happy --->
 <!-- From Ken's talk, people have diff goals:
 Product people want predictble enough way of delivering features, they don't care about tech.
 Customers want working product, they want their expectations to be exceeded, they dont care about tech.
@@ -88,10 +88,10 @@ At the core of these practices is readability. -->
 <!-- It is not indentation, semicoloms, breakets or whatever makes your code pretty.
 It all comes down to the ability to reason about your code. What does it mean? -> building assumptions about what your code is gonna do based on reading it.
 It can be achieved without debugging, by putting just 2 principles in front: immutable data structures, no side-effects as no modification of state outside of a function scope. -->
+<!--- Ask the audience for definitions --->
 
 - Immutability
 - Side effects
-- Referential transparency
 
 ---
 
@@ -118,7 +118,7 @@ const appendedSelectedRows = [...selectedRows, 5];
 <!-- Side effects is a bad word for what it is. These are just effects and we love them, these are the reason we write code.
 Without effects our code would put some pressure on CPU, use some RAM and produce nothing.
 We live for effects. -->
-
+<!--  -->
 ```js
 submitForm(fields);
 ```
@@ -184,6 +184,21 @@ addTotal(0)(11);  // 11
 
 ---
 
+ - filter
+ - map
+ - reduce
+ - sort
+
+---
+
+### Pipe operation
+
+---
+
+### Currying
+
+---
+
 ### [When should we use FP](https://youtu.be/vpcKnqyNdSQ?t=825)
 
 ---
@@ -200,14 +215,6 @@ addTotal(0)(11);  // 11
 - Under the rug
 - Wizard Tower
 - Seagulls
-
----
-
-### Pipe operation
-
----
-
-### Currying
 
 ---
 
