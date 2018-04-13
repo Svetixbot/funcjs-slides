@@ -4,3 +4,51 @@
 3:30 - 4:00: Currying, pipe
 4:00 - 4:20: Video
 4:20 - 5:00: Recap + Discussion
+
+
+In depth
+# Functional Programming - Alec
+## What is functional programming? - Alec
+## No really, what is functional programming? - Alec
+## Ok - Alec
+
+### Functional programming is just a programming - Svet
+### Functions calling other functions - Svet
+### Why do people enjoy FP? - Svet
+### It is all being happy - Svet
+## We'll cover these: - Alec
+## What makes us happy? - Alec
+
+## What is readability? -Svet
+- Immutability
+- SideEffects
+## Immutability - Alec
+## Side effects - Svet
+## Side effects are inevitable -Alec
+## Referential transparency -Svet
+## Referential transparency is important -Svet
+## Foundation of FP - Either
+### Common patterns - Alec
+### Collection pipeline -Alec
+
+**Exercises**
+Ex1 - Svet and Alec
+Ex2 - Pair Rotation
+Ex3 - Pair Rotation
+Ex4 - Pair Rotation
+Recap functions that we've learned
+
+--- Break --- 
+
+Curry Demo - Alec
+Ex5-Curry - Svet
+pipe demo - Alec
+ex5-Composition - Svet
+
+Recap - Composition and Currying
+### [When should we use FP](https://youtu.be/vpcKnqyNdSQ?t=825)
+### 1. Should my team use FP?
+### 2. Anti-patterns
+### Recap
+### Other design patterns
+### References

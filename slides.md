@@ -65,7 +65,6 @@ Not using them and Not knowing them doesn't really help with accepting and adopt
 - Currying
 - Pipe operator
 - How and why do I do FP on a client?
-- Design patterns from FP world
 
 ---
 
@@ -185,14 +184,6 @@ addTotal(0)(11);  // 11
 ---
 
 <!-- .slide: data-background="./img/pipeline.png" data-background-size="contain" -->
-
----
-
-### Pipe operation
-
----
-
-### Currying
 
 ---
 
