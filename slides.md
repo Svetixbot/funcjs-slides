@@ -184,10 +184,7 @@ addTotal(0)(11);  // 11
 
 ---
 
- - filter
- - map
- - reduce
- - sort
+<!-- .slide: data-background="./img/pipeline.png" data-background-size="contain" -->
 
 ---
 
