@@ -11,7 +11,7 @@ In depth
 ## What is functional programming? - Alec
 ## No really, what is functional programming? - Alec
 ## Ok - Alec
-
+Images - Alec
 ### Functional programming is just a programming - Svet
 ### Functions calling other functions - Svet
 ### Why do people enjoy FP? - Svet
@@ -46,9 +46,7 @@ pipe demo - Alec
 ex5-Composition - Svet
 
 Recap - Composition and Currying
+
 ### [When should we use FP](https://youtu.be/vpcKnqyNdSQ?t=825)
-### 1. Should my team use FP?
-### 2. Anti-patterns
-### Recap
 ### Other design patterns
 ### References

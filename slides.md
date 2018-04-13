@@ -99,7 +99,7 @@ It can be achieved without debugging, by putting just 2 principles in front: imm
 <!-- The idea of immutability is simple. Dissallow mutation of state. Why is it important? Move on to explaining side effects. -->
 
 ```js
-let selectedRows = [1, 2, 3, 4];
+const selectedRows = [1, 2, 3, 4];
 selectedRows.push(5);
 ```
 
@@ -118,8 +118,9 @@ const appendedSelectedRows = [...selectedRows, 5];
 Without effects our code would put some pressure on CPU, use some RAM and produce nothing.
 We live for effects. -->
 <!--  -->
+
 ```js
-submitForm(fields);
+transformObject(data);
 ```
 
 ---
@@ -128,6 +129,10 @@ submitForm(fields);
 
 <!-- Saving to DB, log, sending data over to another service.
 Do side effects, avoid non-referencialy transparent expressions. -->
+
+```js
+submitForm(fields);
+```
 
 ---
 
@@ -198,23 +203,9 @@ addTotal(0)(11);  // 11
 
 ---
 
-### 2. Anti-patterns
-
-- Under the rug
-- Wizard Tower
-- Seagulls
-
----
-
-### Recap
-
----
-
-### Other design patterns
-
----
-
 ### References
 
 - [Adopting FP: A Human-First Approach](https://www.youtube.com/watch?v=vpcKnqyNdSQ)
 - [Hardcode FP in JS cource](https://www.pluralsight.com/courses/hardcore-functional-programming-javascript)
+- [Collection Pipeline](https://martinfowler.com/articles/collection-pipeline/)
+- [Refactoring Pipelines](https://martinfowler.com/articles/refactoring-pipelines.html)
