@@ -1,6 +1,6 @@
 const countOfBooks = require('./countOfBooks');
 
-describe('count of books', () => {
+describe.skip('count of books', () => {
   it('should count books by author', () => {
     const books = [{
       author: 'Jesus',

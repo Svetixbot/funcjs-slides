@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.17.5",
     "reveal-md": "^1.1.3"
   },
   "devDependencies": {

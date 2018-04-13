@@ -1,6 +1,6 @@
 const authorsWithBooks = require('./authorsWithBooks');
 
-describe('authorsWithBooks', () => {
+describe.skip('authorsWithBooks', () => {
   it('should return authors with greater than or equal to n books', () => {
     const books = [{
       author: 'Jesus',
