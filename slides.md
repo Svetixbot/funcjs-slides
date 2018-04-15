@@ -209,3 +209,4 @@ addTotal(0)(11);  // 11
 - [Hardcode FP in JS cource](https://www.pluralsight.com/courses/hardcore-functional-programming-javascript)
 - [Collection Pipeline](https://martinfowler.com/articles/collection-pipeline/)
 - [Refactoring Pipelines](https://martinfowler.com/articles/refactoring-pipelines.html)
+- [Data transformer pattern](https://perfunct.tech/javascript/2018/03/12/manageable-data-transform/)
